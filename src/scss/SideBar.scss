@@ -1,0 +1,35 @@
+@use "base";
+.sidebar {
+}
+.sidebar-title {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-family: base.$font-family;
+    font-size: 150%;
+}
+.sidebar-user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    .sidebar-user-avatar {
+        height: 60%;
+        width: 70%;
+    }
+    .sidebar-user-name {
+        font-weight: bold;
+        font-family: base.$font-family;
+    }
+}
+.sidebar-menu {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+}
